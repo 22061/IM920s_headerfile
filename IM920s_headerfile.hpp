@@ -17,7 +17,7 @@ namespace IM920
   inline void setup(void) 
   {
     IM920Serial.begin(19200);
-    pinMode(2, INPUT_PULLUP);
+    pinMode(10, INPUT_PULLUP);
   }
 
   inline void send(String number, int send_1, int send_2) 
