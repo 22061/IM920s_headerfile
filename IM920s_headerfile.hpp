@@ -22,7 +22,7 @@ namespace IM920
 
   inline void send(String number, int send_1, int send_2) 
   {    
-    if(digitalRead(2) == LOW)
+    if(digitalRead(10) == LOW)
     {
       doc["data1"] = send_1;
       doc["data2"] = send_2;
